@@ -1,6 +1,6 @@
 # Automated Researcher
 
-A powerful Python-based automated research tool that leverages AI models and web scraping to conduct comprehensive research on any given topic.
+A powerful Python-based automated research tool that leverages AI models and web scraping to conduct comprehensive research on any given topic. (PS: just a program for fun where i just want to develop a system that can automatically open up browser and perform action on it)
 
 ## Features
 
@@ -21,6 +21,7 @@ A powerful Python-based automated research tool that leverages AI models and web
   - phi (~1.6GB)
   - mistral:7b-instruct-q4_0 (~4GB)
   - llama2:7b-chat-q4_0 (~3.8GB)
+  - OR your own preferences
 
 ## Installation
 
@@ -31,7 +32,7 @@ pip install selenium beautifulsoup4 requests ollama psutil
 ```
 3. Install at least one Ollama model:
 ```bash
-ollama pull tinyllama
+ollama pull tinyllama 
 ```
 
 ## Usage
